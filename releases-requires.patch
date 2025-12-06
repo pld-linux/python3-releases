@@ -1,0 +1,11 @@
+--- releases-1.6.3/setup.py.orig	2020-01-11 01:27:20.000000000 +0100
++++ releases-1.6.3/setup.py	2025-12-01 21:18:27.131700049 +0100
+@@ -18,7 +18,7 @@ setup(
+     url='https://github.com/bitprophet/releases',
+     packages=['releases'],
+     install_requires=[
+-        'semantic_version<2.7',
++        'semantic_version',
+         'sphinx>=1.8',
+     ],
+     classifiers=[
