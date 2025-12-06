@@ -1,11 +1,11 @@
---- releases-1.6.3/setup.py.orig	2020-01-11 01:27:20.000000000 +0100
-+++ releases-1.6.3/setup.py	2025-12-01 21:18:27.131700049 +0100
-@@ -18,7 +18,7 @@ setup(
-     url='https://github.com/bitprophet/releases',
-     packages=['releases'],
-     install_requires=[
--        'semantic_version<2.7',
-+        'semantic_version',
-         'sphinx>=1.8',
+--- releases-2.1.1/setup.py.orig	2023-02-16 20:51:03.000000000 +0100
++++ releases-2.1.1/setup.py	2025-12-01 21:47:52.017112105 +0100
+@@ -32,7 +32,7 @@ setup(
+         # Continuing to pin an old semantic_version until I have time to update
+         # and finish the branch I made for
+         # https://github.com/bitprophet/releases/pull/86#issuecomment-580037996
+-        "semantic_version<2.7",
++        "semantic_version<3",
      ],
+     python_requires=">=3.6",
      classifiers=[
